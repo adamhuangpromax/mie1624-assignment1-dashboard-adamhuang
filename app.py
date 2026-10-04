@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide"
 )
 
-ASSET = Path(__file__).parent / "assets"
+ASSET = Path(__file__).parent
 
 st.title("Stack Overflow Developer Salary Analysis")
 st.caption("2025 Stack Overflow Developer Survey · MIE1624 Assignment 1")
